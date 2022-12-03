@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Counter</title>
+  <link rel="stylesheet" href=style.css>
+</head>
+
+<body>
+
+  <canvas id="canvas" height="600" width="600"></canvas>
+
+  <div class="number-pad">
+    <div class="row">
+      <div id="number-400" class="number" onclick="UpdateState(0)">
+        <h2>C</h2>
+      </div>
+      <div id="number-500" class="number" onclick="UpdateState(1)">
+        <h2>Db</h2>
+      </div>
+      <div id="number-600" class="number" onclick="UpdateState(2)">
+        <h2>D</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div id="number-100" class="number" onclick="UpdateState(3)">
+        <h2>Eb</h2>
+      </div>
+      <div id="number-200" class="number" onclick="UpdateState(4)">
+        <h2>E</h2>
+      </div>
+      <div id="number-300" class="number" onclick="UpdateState(5)">
+        <h2>F</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div id="number-5" class="number" onclick="UpdateState(6)">
+        <h2>Gb</h2>
+      </div>
+      <div id="number-20" class="number" onclick="UpdateState(7)">
+        <h2>G</h2>
+      </div>
+      <div id="number-50" class="number" onclick="UpdateState(8)">
+        <h2>Ab</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div id="back-space" class="number" onclick="UpdateState(9)">
+        <h3>A</h2>
+      </div>
+      <div id="new-day" class="number" onclick="UpdateState(10)">
+        <h3>Bb</h2>
+      </div>
+      <div id=" reset" class="number" onclick="UpdateState(11)">
+        <h3>B</h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="src.js"></script>
+
+</body>
+
+</html>
